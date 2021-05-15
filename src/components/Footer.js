@@ -9,9 +9,11 @@ function Footer() {
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h2>Footer Links</h2>
-                        <Link to='/contact'>Link1</Link>
-                        <Link to='/projects'>Link2</Link>
+                        <h2>Page Links</h2>
+                        <Link to='/'>Home</Link>
+                        <Link to='/resume'>Resume</Link>
+                        <Link to='/projects'>Projects</Link>
+                        <Link to='/contact'>Contact</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Footer Links</h2>
@@ -64,4 +66,4 @@ function Footer() {
     );
 }
 
-export default Footer
+export default Footer;
