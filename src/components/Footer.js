@@ -16,19 +16,16 @@ function Footer() {
                         <Link to='/contact'>Contact</Link>
                     </div>
                     <div className='footer-link-items'>
-                        <h2>Footer Links</h2>
-                        <Link to='/contact'>Link1</Link>
-                        <Link to='/projects'>Link2</Link>
+                        <h2>Links to Explore</h2>
+                        <Link to={{pathname: "https://randomsong.net"}} target="_blank">randomsong.net</Link>
+                        <Link to={{pathname: "https://www.mapcrunch.com"}} target="_blank">Random Street View</Link>
+                        <Link to={{pathname: "https://quickdraw.withgoogle.com"}} target="_blank">Quick, Draw!</Link>
                     </div>
                     <div className='footer-link-items'>
-                        <h2>Footer Links</h2>
-                        <Link to='/contact'>Link1</Link>
+                        <h2>Recent Updates</h2>
+                        <Link to='/projects'>Link1</Link>
                         <Link to='/projects'>Link2</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>Footer Links</h2>
-                        <Link to='/contact'>Link1</Link>
-                        <Link to='/projects'>Link2</Link>
+                        <Link to='/projects'>Link3</Link>
                     </div>
                 </div>
             </div>
@@ -36,10 +33,10 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            rachel with logo
+                            <img to='/' className='logo-img' src='images/logo-white.png'/>
                         </Link>
                     </div>
-                    <small className='website-rights'>pls don't steal my stuff</small>
+                    <small className='website-rights'>Rachel Vanderloop, 2021</small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook'
                             to='/'
@@ -58,6 +55,12 @@ function Footer() {
                             target='_blank'
                             aria-label='LinkedIn'>
                                 <i className='fab fa-linkedin'/>
+                        </Link>
+                        <Link className='social-icon-link github'
+                            to='/'
+                            target='_blank'
+                            aria-label='LinkedIn'>
+                                <i className='fab fa-github'/>
                         </Link>
                     </div>
                 </div>
