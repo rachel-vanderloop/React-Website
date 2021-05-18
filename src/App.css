@@ -67,4 +67,11 @@
   padding-left: 50px;
   font-size: 30px;
 }
+
+.lower-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 /* end contact */

@@ -1,15 +1,17 @@
 import React from 'react';
+import GoogleMapReact from 'google-map-react';
 import Footer from '../Footer';
 import '../../App.css';
 import ContactForm from '../ContactForm';
 
 function Contact() {
+    
     return (
         <div>
             <h1>Get in Touch!</h1>
             <div className='contact-blurb'>
                 <h1>About Rachel</h1> 
-                <h2>pronouns: they/them</h2>
+                <h1>pronouns: they/them</h1>
             </div>
 
             <div className='upper-container'>
@@ -19,8 +21,8 @@ function Contact() {
                         <i className='fab fa-linkedin'/>
                     </div>
                     <div className='platform-clm'>  
-                        <p className='handle'>git</p>
-                        <p className='handle'>linkedin</p>
+                        <p className='handle'>rachel-vanderloop</p>
+                        <p className='handle'>rachelvanderloop</p>
                     </div>
                     <div className='platform-clmn'>
                         <i className='fab fa-facebook'/> <br/>
@@ -40,8 +42,16 @@ function Contact() {
                     </div>                  
                 </div>
             </div>
-  
-            <ContactForm/>
+
+            <div className='lower-container'>
+                <div className='form-map-wrapper'>
+                    <ContactForm/>
+                </div>
+                <div className='form-map-wrapper'>
+                    <h3>map</h3>
+                </div>
+            </div>
+                        
             <Footer/>
         </div>
     )
