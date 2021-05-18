@@ -27,6 +27,12 @@ function Footer() {
                         <Link to='/projects'>Link2</Link>
                         <Link to='/projects'>Link3</Link>
                     </div>
+                    <div className='footer-link-items'>
+                        <h2>Contact Info</h2>
+                        <p>Rachel Vanderloop</p>
+                        <p>rachelvanderloop@gmail.com</p>
+                        <p>rvanderl@uwo.ca</p>
+                    </div>
                 </div>
             </div>
             <section className='social-media'>
@@ -42,7 +48,7 @@ function Footer() {
                             to='/'
                             target='_blank'
                             aria-label='Facebook'>
-                                <i className='fab fa-facebook-f'/>
+                                <i className='fab fa-facebook'/>
                         </Link>
                         <Link className='social-icon-link instagram'
                             to='/'
