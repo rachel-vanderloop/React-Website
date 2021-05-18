@@ -1,11 +1,9 @@
 import React from 'react';
-import GoogleMapReact from 'google-map-react';
 import Footer from '../Footer';
 import '../../App.css';
 import ContactForm from '../ContactForm';
 
 function Contact() {
-    
     return (
         <div>
             <h1>Get in Touch!</h1>
@@ -48,13 +46,14 @@ function Contact() {
                     <ContactForm/>
                 </div>
                 <div className='form-map-wrapper'>
-                    <h3>map</h3>
+                    
                 </div>
+                <br/>
             </div>
-                        
+       
             <Footer/>
         </div>
-    )
+    );
 }
 
 export default Contact;
