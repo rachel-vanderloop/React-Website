@@ -1,0 +1,14 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: left;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-item {
+    display: flex;
+}
+
+span {
+    display: block;
+}
