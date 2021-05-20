@@ -7,13 +7,13 @@ function ContactForm() {
         <div className='form-wrapper'>
             <form className='form-item'>
                 <span>
-                    <label>Contact Rachel</label>
+                    <h1>Contact Rachel</h1>
                 </span>
                 <span>
                     <input type='text' className='form-field' placeholder='Your full name'/>
                     <input type='text' className='form-field' placeholder='Your preferred pronouns'/>
                     <input type='email' className='form-field' placeholder='Your email'/>
-                </span>              
+                </span> 
                 <label>What is your query?</label>
                 <select id='desired-query'>
                     <option value='webdev' name=''>Build me a website!</option>

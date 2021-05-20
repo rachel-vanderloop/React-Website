@@ -7,7 +7,7 @@ import ContactVidSection from '../ContactVidSection';
 function Contact() {
     return (
         <div>
-            <ContactVidSection/>
+            <ContactVidSection className='contactvid'/>
             
             <div className='lower-container'>
                 <div className='form-map-wrapper'>

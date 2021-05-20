@@ -46,6 +46,10 @@
   background-image: url('../public/images/rainbowbanner.jpg');
 }*/
 
+.contactvid {
+  z-index: -1;
+}
+
 .contact {
   background-position: center;
   background-size: cover;
