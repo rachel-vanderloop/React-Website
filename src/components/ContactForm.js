@@ -13,9 +13,7 @@ function ContactForm() {
                     <input type='text' className='form-field' placeholder='Your full name'/>
                     <input type='text' className='form-field' placeholder='Your preferred pronouns'/>
                     <input type='email' className='form-field' placeholder='Your email'/>
-                </span>
-                
-                
+                </span>              
                 <label>What is your query?</label>
                 <select id='desired-query'>
                     <option value='webdev' name=''>Build me a website!</option>
@@ -23,7 +21,7 @@ function ContactForm() {
                     <option value='chat' name=''>I'd like to chat</option>
                 </select>
                 <input type='text' className='form-field' placeholder='Your message'/>
-                <Button type='submit' value='Send away!'>Send away!</Button>
+                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' type='submit'>Send away!</Button>
             </form>
         </div>
     )
