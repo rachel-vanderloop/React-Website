@@ -20,7 +20,7 @@ function ContactVidSection() {
                         <i className='fab fa-instagram'/> <p className='handle'>@raynotrachel332</p>
                     </div>
                     <div className='platform-clmn'>
-                        <i className='fab fa-github'/> <p className='handle'>rachel-vanderloop</p>
+                        <i className='fab fa-github'/> <p className='handle'>ray-vanderloop</p>
                         <i className='fab fa-linkedin'/> <p className='handle'>rachelvanderloop</p>
                     </div>
                     <div className='platform-clmn'>
