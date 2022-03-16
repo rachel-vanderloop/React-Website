@@ -18,7 +18,7 @@ function ContactForm() {
                 <label>What is your query?</label>
                 <select id='desired-query'>
                     <option value='webdev' name=''>Build me a website!</option>
-                    <option value='query' name=''>I need some info</option>
+                    <option value='query' name=''>I need some information</option>
                     <option value='chat' name=''>I'd like to chat</option>
                 </select>
                 <input type='text' className='form-field' placeholder='Your message'/>

@@ -10,7 +10,6 @@ function ContactVidSection() {
             <div className='upper-container'>
                 <div className='contact-blurb'>
                     <h1>Get in Touch!</h1>
-                    <h1>About Ray</h1>
                     <h1>pronouns: they/them</h1>
                 </div>
                 <div className='platform-container'>
