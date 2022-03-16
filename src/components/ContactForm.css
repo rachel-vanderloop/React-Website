@@ -3,9 +3,15 @@
     flex-direction: center;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     background: linear-gradient(90deg, rgb(0, 224, 206) 0%, rgb(0, 129, 108) 100%);
-    width: 100%;
+    width: 80%;
     padding: 20px;
+}
+
+.form-item {
+    align-items: center;
+    display: inline-block;
 }
 
 span {
@@ -15,3 +21,9 @@ span {
     padding: 20px;
     align-items: center;
 }
+
+input {
+    padding: 1em;
+    margin: 1em;
+}
+

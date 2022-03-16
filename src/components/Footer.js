@@ -29,7 +29,7 @@ function Footer() {
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Info</h2>
-                        <p>Rachel Vanderloop</p>
+                        <p>Ray Vanderloop</p>
                         <p>rachelvanderloop@gmail.com</p>
                         <p>rvanderl@uwo.ca</p>
                     </div>
@@ -42,7 +42,7 @@ function Footer() {
                             <img to='/' className='logo-img' src='images/logo-white.png'/>
                         </Link>
                     </div>
-                    <small className='website-rights'>Rachel Vanderloop, 2021</small>
+                    <small className='website-rights'>Ray Vanderloop, 2022</small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook'
                             to='/'

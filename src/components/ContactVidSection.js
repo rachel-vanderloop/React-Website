@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+import './ContactVidSection.css';
 
 function ContactVidSection() {
     return (
         <div className='banner-container'>
             <video src='/videos/waves-sample-vid.mp4' autoPlay loop muted/>
-            <h1>Get in Touch!</h1>
-            <div className='contact-blurb'>
-                <h1>About Rachel</h1> 
-                <h1>pronouns: they/them</h1>
-            </div>
+            
             <div className='upper-container'>
+                <div className='contact-blurb'>
+                    <h1>Get in Touch!</h1>
+                    <h1>About Ray</h1>
+                    <h1>pronouns: they/them</h1>
+                </div>
                 <div className='platform-container'>
                     
                     <div className='platform-clmn'>

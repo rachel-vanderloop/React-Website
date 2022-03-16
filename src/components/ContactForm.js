@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
+import '../App.css';
 import './ContactForm.css';
 
 function ContactForm() {
@@ -7,7 +8,7 @@ function ContactForm() {
         <div className='form-wrapper'>
             <form className='form-item'>
                 <span>
-                    <h1>Contact Rachel</h1>
+                    <h1>Contact Ray</h1>
                 </span>
                 <span>
                     <input type='text' className='form-field' placeholder='Your full name'/>

@@ -13,7 +13,7 @@ function Cards() {
                         src='images/rainbow-cloud.jpg'
                         text='My Photography'
                         label='Projects'
-                        path='/projects'
+                        path='/contact'
                         />
                         <CardItem 
                         src='images/world-img.jpg'
