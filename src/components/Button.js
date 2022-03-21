@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium', 'btn--large'];
+const ROUTES = ['/', '/resume', '/projects', '/contact', '/updates'];
 
 
 export const Button = ({
@@ -11,14 +12,16 @@ export const Button = ({
     type, 
     onClick, 
     buttonStyle, 
-    buttonSize
+    buttonSize, 
+    path
 }) => {
     // if style not specified, go with default style
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+    const checkPath = ROUTES.includes(path) ? path : ROUTES[0];
     return(
         //whatever is inside button populate it
-        <Link to='/contact' className='btn-mobile'>
+        <Link to={`${checkPath}`} className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}

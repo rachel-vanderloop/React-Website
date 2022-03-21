@@ -8,18 +8,20 @@ function HeroSection() {
         <div className='hero-container'>
             <video src='/videos/world-sample-vid.mp4' autoPlay loop muted/>
             <h1>Ray (Rachel) Vanderloop</h1>
-            <p>Software engineering graduate with a passion for design and development</p>
+            <p>Software engineering graduate with a passion for design, development and accessibility</p>
             <div className="hero-btns">
                 <Button 
-                className='btns' 
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'>
+                    className='btns' 
+                    path='/resume'
+                    buttonStyle='btn--outline'
+                    buttonSize='btn--large'>
                     TECH STACK
                 </Button>
                 <Button 
-                className='btns' 
-                buttonStyle='btn--primary'
-                buttonSize='btn--large'>
+                    className='btns' 
+                    path='/updates'
+                    buttonStyle='btn--primary'
+                    buttonSize='btn--large'>
                     LIFE UPDATES <i className='fas fa-compass' />
                 </Button>
             </div>
@@ -27,4 +29,4 @@ function HeroSection() {
     )
 }
 
-export default HeroSection
+export default HeroSection;

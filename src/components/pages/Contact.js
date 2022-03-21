@@ -19,7 +19,6 @@ function Contact() {
                 <br/>
             </div>
        
-            <Footer/>
         </div>
     );
 }
