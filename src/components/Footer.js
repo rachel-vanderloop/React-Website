@@ -17,15 +17,10 @@ function Footer() {
                     </div>
                     <div className='footer-link-items'>
                         <h2>Links to Explore</h2>
-                        <Link to={{pathname: "https://randomsong.net"}} target="_blank">randomsong.net</Link>
+                        <Link to={{pathname: "https://noises.online"}} target="_blank">Noises Online - Ambient Noise</Link>
                         <Link to={{pathname: "https://www.mapcrunch.com"}} target="_blank">Random Street View</Link>
                         <Link to={{pathname: "https://quickdraw.withgoogle.com"}} target="_blank">Quick, Draw!</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>Recent Updates</h2>
-                        <Link to='/projects'>Link1</Link>
-                        <Link to='/projects'>Link2</Link>
-                        <Link to='/projects'>Link3</Link>
+                        <Link to={{pathname: "https://unshorten.it"}} target="_blank">Unshorten.It</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Info</h2>
@@ -44,26 +39,21 @@ function Footer() {
                     </div>
                     <small className='website-rights'>Ray Vanderloop, 2022</small>
                     <div className='social-icons'>
-                        <Link className='social-icon-link facebook'
-                            to='/'
-                            target='_blank'
-                            aria-label='Facebook'>
-                                <i className='fab fa-facebook'/>
-                        </Link>
+                        
                         <Link className='social-icon-link instagram'
-                            to='/'
+                            to={{pathname: "https://www.instagram.com/stella_and_kitty/"}}
                             target='_blank'
                             aria-label='Instagram'>
                                 <i className='fab fa-instagram'/>
                         </Link>
                         <Link className='social-icon-link linkedin'
-                            to='/'
+                            to={{pathname: "https://www.linkedin.com/in/rachelvanderloop/"}}
                             target='_blank'
                             aria-label='LinkedIn'>
                                 <i className='fab fa-linkedin'/>
                         </Link>
                         <Link className='social-icon-link github'
-                            to='/'
+                            to={{pathname: "https://github.com/ray-vanderloop"}}
                             target='_blank'
                             aria-label='LinkedIn'>
                                 <i className='fab fa-github'/>
