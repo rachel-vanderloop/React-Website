@@ -1,10 +1,13 @@
 .title-box {
     text-align: center;
+    margin: 1em 1em 0 1em;
 }
 
 .title-text {
-    border: #9c55ff 10px solid;
+    border: #00e0ce 10px solid;
+    background-color: #ffffff;
     width: 30%;
     display: inline-block;
     vertical-align: top;
+    padding: 2em;
 }
