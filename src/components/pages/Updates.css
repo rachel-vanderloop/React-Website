@@ -1,0 +1,10 @@
+.title-box {
+    text-align: center;
+}
+
+.title-text {
+    border: #9c55ff 10px solid;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
