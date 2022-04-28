@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/videos/world-sample-vid.mp4' autoPlay loop muted/>
+            <video src='/videos/code-herobanner.mp4' autoPlay loop muted/>
             <h1>Ray (Rachel) Vanderloop</h1>
             <p>Software engineering graduate with a passion for design, development and accessibility</p>
             <div className="hero-btns">
