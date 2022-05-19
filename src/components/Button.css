@@ -1,13 +1,11 @@
 :root {
-    --primary: #fff;
-    --secondary: #0000;
+    --primary: #ffffff;
+    --secondary: #242424;
 }
 
 .btn{
     padding: 8px 20px;
     border-radius: 2px;
-    outline: none;
-    border: none;
     cursor: pointer;
 }
 
@@ -22,7 +20,13 @@
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
+}
+
+.btn--secondary{
+    background-color: transparent;
+    color: #242424;
+    padding: 8px 20px;
+    border: 1px solid var(--secondary);
 }
 
 .btn--medium{

@@ -3,7 +3,17 @@
     background: #fff;
   }
   
-  h1 {
+  .cards {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  h1, h3 {
     text-align: center;
   }
   
