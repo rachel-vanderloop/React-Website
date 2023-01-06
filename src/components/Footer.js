@@ -37,7 +37,7 @@ function Footer() {
                             <img to='/' className='logo-img' src='images/logo-white.png'/>
                         </Link>
                     </div>
-                    <small className='website-rights'>Ray Vanderloop, 2022</small>
+                    <small className='website-rights'>Ray Vanderloop, 2023</small>
                     <div className='social-icons'>
                         
                         <Link className='social-icon-link instagram'
