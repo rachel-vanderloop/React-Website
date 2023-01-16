@@ -25,7 +25,7 @@ function Footer() {
                     <div className='footer-link-items'>
                         <h2>Contact Info</h2>
                         <p>Ray Vanderloop</p>
-                        <p>rachelvanderloop@gmail.com</p>
+                        <p>r.vanderloop@icloud.com</p>
                         <p>rvanderl@uwo.ca</p>
                     </div>
                 </div>

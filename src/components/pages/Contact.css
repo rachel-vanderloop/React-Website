@@ -2,16 +2,19 @@ img {
     width: 30em;
 }
 
-.contactform {
-    width: inherit;
-    height: max-content;
+a {
+    color: black;
+}
+
+a:hover {
+    color: #00816c;
 }
 
 .wrapper {
     display: flex;
-    flex-direction: left;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: left;
     padding: 0px;
 }

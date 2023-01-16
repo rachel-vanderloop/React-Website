@@ -7,16 +7,12 @@ import ContactVidSection from '../ContactVidSection';
 function Contact() {
     return (
         <div>
-            <ContactVidSection className='contactvid'/>
+            
             <div className='wrapper'>
-                <div className='contactform'>
-                    <ContactForm className='contactform'/>
-                </div>
+                <ContactVidSection className='contactvid'/>
                 <img src='/images/western-pride.jpg'/>
             </div>
-            
-            
-       
+        
         </div>
     );
 }

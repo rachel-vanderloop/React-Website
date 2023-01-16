@@ -1,28 +1,47 @@
 video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%; /*maybe look at this*/
-    position: fixed;
-    z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  /*maybe look at this*/
+  position: fixed;
+  z-index: -1;
 }
 
 .banner-container {
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-  }
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  object-fit: contain;
+}
 
-  .contact-blurb {
-    padding-bottom: 1em;
-  }
+.contact-blurb {
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 
-  .upper-container {
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 2em;
-    width: 60%;
-  }
+.platform-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.platform-clmn {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.upper-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 3em;
+  margin-top: 6em;
+  width: 90%;
+}
