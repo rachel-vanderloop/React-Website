@@ -32,6 +32,7 @@ video {
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 3em;
+  width: max-content;
 }
 
 .platform-clmn {
@@ -39,9 +40,14 @@ video {
   flex-wrap: nowrap;
 }
 
+.platform-clmn a {
+  text-align: center;
+}
+
 .upper-container {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 3em;
   margin-top: 6em;
-  width: 90%;
+  width: 80%;
+  border-radius: 2em;
 }

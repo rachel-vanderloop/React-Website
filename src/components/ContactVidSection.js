@@ -16,13 +16,13 @@ function ContactVidSection() {
                 <div className='platform-container'>
                     <div className='platform-clmn'>
                         <a href="https://github.com/ray-vanderloop" target="_blank">
-                            <i className='fab fa-github' />
+                            <i className='fab fa-github' /><br/>
                             <p className='handle'>ray-vanderloop</p>
                         </a>
                     </div>
                     <div className='platform-clmn'>
                         <a href="https://www.linkedin.com/in/rachelvanderloop/" target="_blank">
-                            <i className='fab fa-linkedin' />
+                            <i className='fab fa-linkedin' /><br/>
                             <p className='handle'>rachelvanderloop</p>
                         </a>
                     </div>
@@ -30,7 +30,7 @@ function ContactVidSection() {
                 <div className='platform-container'>
                     <div className='platform-clmn'>
                         <a href="mailto:r.vanderloop@icloud.com">
-                            <i className='fas fa-envelope' />
+                            <i className='fas fa-envelope' /><br/>
                             <p className='handle'>r.vanderloop@icloud.com</p>
                         </a>
                     </div>

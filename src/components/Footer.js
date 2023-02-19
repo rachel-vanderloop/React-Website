@@ -26,7 +26,6 @@ function Footer() {
                         <h2>Contact Info</h2>
                         <p>Ray Vanderloop</p>
                         <p>r.vanderloop@icloud.com</p>
-                        <p>rvanderl@uwo.ca</p>
                     </div>
                 </div>
             </div>
