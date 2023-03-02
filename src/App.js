@@ -5,6 +5,10 @@ import Resume from './components/pages/Resume';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Updates from './components/pages/Updates';
+import WI from './components/pages/projects/Western_Int';
+import IESC from './components/pages/projects/IESC';
+
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
@@ -26,6 +30,9 @@ function App() {
           <Route path='/projects' exact component={ Projects }/>
           <Route path='/contact' exact component={ Contact }/>
           <Route path='/updates' exact component={ Updates }/>
+          
+          <Route path='/western_int' exact component={ WI }/>
+          <Route path='/iesc' exact component={ IESC }/>
         </Switch>
         <Footer/>
       </Router>

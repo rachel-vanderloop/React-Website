@@ -12,20 +12,20 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem 
                         src='images/rainbow-cloud.jpg'
-                        text='Western International - Ukraine Microsite'
+                        text='Western International highlights'
                         label='Projects'
-                        to={{pathname: "https://unshorten.it"}}
+                        path='/western_int'
                         />
                         <CardItem 
                         src='images/world-img.jpg'
-                        text='IESC - Peer Guide 30th Anniversary'
-                        label='Personal'
-                        path='/projects'
+                        text='International &amp; Exchange Student Centre highlights'
+                        label='Projects'
+                        path='/iesc'
                         />
                         <CardItem 
                         src='images/meandkitty.jpg'
-                        text='Kitty loves to help me with school'
-                        label='Personal'
+                        text='Western Heads East highlights'
+                        label='Projects'
                         path='/projects'
                         />
                     </ul>
